@@ -1,9 +1,8 @@
 #include <stdio.h>
+
+int sum();
+
 int main() {
-	int result = 0;
-	for(int i = 1; i <= 100; i++) {
-		result += i;
-	} 
-	printf("%d\n", result);
+	sum();
 	return 0;
 }
