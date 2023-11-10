@@ -3,8 +3,6 @@
 #include <signal.h>
 #include <unistd.h>
 
-int num;
-
 int main() {
 
 	static struct sigaction act;
@@ -19,9 +17,6 @@ int main() {
 		printf("i'm sleepy..\n"); 
 		
 		sleep(1); 
-		
-		if(num >= 3)
-			exit(0);
 	}
 }
 
